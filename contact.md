@@ -1,8 +1,10 @@
 ---
 layout: contact
 title: Let’s connect around delivery, customer success, and execution clarity.
+seo_title: Contact | Kshitiz Maskey
 eyebrow: Contact
 description: I’m open to conversations around program delivery, customer success operations, delivery governance, Agile enablement, and roles where business expectations and execution need to stay closely aligned.
+image: /assets/images/kshitiz-portrait.png
 permalink: /contact/
 nav: Contact
 buttons:

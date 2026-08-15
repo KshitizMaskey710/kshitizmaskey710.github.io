@@ -3,6 +3,7 @@ layout: home
 title: Kshitiz Maskey
 eyebrow: Customer Success & Delivery Leader
 description: I help teams and organizations bring structure to execution through delivery governance, stakeholder alignment, and cross-functional leadership in distributed environments.
+image: /assets/images/kshitiz-portrait.png
 permalink: /
 nav: Home
 buttons:

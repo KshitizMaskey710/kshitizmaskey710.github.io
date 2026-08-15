@@ -1,8 +1,10 @@
 ---
 layout: expertise
 title: Delivery, customer success, and operating model expertise for client-facing technology teams.
+seo_title: Delivery, Customer Success & Agile Expertise | Kshitiz Maskey
 eyebrow: Expertise
 description: Expertise that connects customer confidence, delivery discipline, and practical team enablement.
+image: /assets/images/kshitiz-portrait.png
 permalink: /expertise/
 nav: Expertise
 lead_paragraphs:

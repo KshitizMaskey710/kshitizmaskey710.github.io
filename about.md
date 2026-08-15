@@ -3,6 +3,7 @@ layout: profile
 title: Customer success, delivery leadership, and execution clarity.
 eyebrow: About Me
 description: I am a Customer Success & Delivery leader with a career shaped by client-facing business roles, Agile delivery, stakeholder management, and governance-focused execution.
+image: /assets/images/kshitiz-portrait.png
 permalink: /about/
 nav: About
 cta:

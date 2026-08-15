@@ -1,8 +1,10 @@
 ---
 layout: page
 title: Reflections, delivery lessons, and practical enablement case studies.
+seo_title: Blogs & Articles | Kshitiz Maskey
 eyebrow: Blogs & Case Studies
 description: A collection of writing on customer-facing delivery, program execution, governance, Agile thinking, team leadership, and practical training experiences.
+image: /assets/images/kshitiz-portrait.png
 permalink: /blogs/
 nav: Blogs
 ---
