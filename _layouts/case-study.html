@@ -1,10 +1,9 @@
 ---
 layout: default
 ---
-{% include hero.html back_url='/blogs/' back_label='Back to Blogs' %}
-<div class="shell">{% include article-meta.html %}</div>
-<article class="shell prose article-content article-content--case-study">
-  {% if page.visual %}{% include visual-panel.html label=page.visual.label title=page.visual.title items=page.visual.items caption=page.visual.caption %}{% endif %}
+{% include hero.html back_url='/blogs/' back_label='Back to Blogs' meta=page.meta %}
+<article class="article">
+  {% if page.visual %}{% include visual-panel.html label=page.visual.label title=page.visual.title items=page.visual.items cards=page.visual.cards caption=page.visual.caption %}{% endif %}
   {{ content }}
 </article>
-{% if page.related %}<div class="shell">{% include related-links.html title='Continue from this case study' %}</div>{% endif %}
+{% if page.cta %}{% include cta.html label=page.cta.label title=page.cta.title lead=page.cta.lead buttons=page.cta.buttons %}{% endif %}

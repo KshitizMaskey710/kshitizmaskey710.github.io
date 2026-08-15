@@ -2,7 +2,10 @@
 title: "Skills or Zeal: Building the Dream Team with a Dash of Fun"
 slug: skills-or-zeal
 category_label: Blog / Team Leadership
-description: A practical reflection on why skills matter and why attitude, learning energy, and zeal can be the fuel behind a strong team.
+card_title: Skills or Zeal
+card_text: A playful but practical reflection on team selection and why learning energy, attitude, and zeal often matter as much as skill.
+description: A playful but practical reflection on team selection, why skills matter, and why attitude, learning energy, and zeal can be the real fuel behind a strong team.
+image: /assets/images/skills-or-zeal-dream-team.jpg
 meta:
   - label: Theme
     value: Team Building
@@ -10,22 +13,46 @@ meta:
     value: Skills, zeal, attitude, and growth
   - label: Style
     value: Reflective / Playful
+cta:
+  label: Related Expertise
+  title: Distributed Team Leadership
+  lead: This reflection connects to my work in team development, distributed team leadership, ownership, growth mindset, and helping teams work with clarity and confidence.
+  buttons:
+    - label: View Team Leadership Expertise
+      url: /expertise/#distributed-team-leadership
+      primary: true
+    - label: Back to Blogs
+      url: /blogs/
 ---
+
+{% include image-block.html src='/assets/images/skills-or-zeal-dream-team.jpg' alt='Team collaboration' caption='A reflection on finding the right blend of capability, attitude, and growth energy in a team.' %}
 
 ## The dream team question
 
-When forming a project team, skills, knowledge, and experience sit naturally at the top of the checklist. But capability alone does not explain why some groups become strong teams while others remain collections of experts.
+When forming a dream team for a project, the checklist often starts with skills and knowledge. Those things matter. They are the ingredients that make the pizza possible.
+
+But they are not the whole meal. A team also needs learning energy, willingness, ownership, and the right attitude to grow.
 
 ## When skill alone does not move the team
 
-Someone may be brilliant at their craft but uninterested in growth, feedback, collaboration, or shared energy. Expertise without willingness can become a powerful engine disconnected from the rest of the vehicle.
+Someone can be technically strong and still difficult to work with. A person can have impressive expertise but no interest in collaboration, learning, or adapting.
 
-## What zeal contributes
+That is like having a sports car with no engine. It may look impressive, but it does not move the team forward.
 
-Zeal is not loud enthusiasm. It is curiosity, care, and the willingness to learn, help, and persist. It makes feedback easier to receive and gives developing skills room to become dependable capability.
+## The fine line between harmony and chaos
 
-> The best team is not simply the one with the longest list of skills. It is the one that can learn, trust, and improve together.
+Team dynamics need balance. Competition and motivation can energize people, but they can also create adverse effects when not grounded in trust and shared purpose.
 
-## Build for balance
+The strongest teams are not built only around individual brilliance. They are built around how people learn, respond, collaborate, and move together.
 
-Strong selection considers current capability, learning potential, collaboration, and the environment the team will create. Skills help people begin; healthy energy helps the team keep growing.
+## The selection process made it clear
+
+Through screenings, interviews, and assessment activities, it became clear that skills and knowledge were important, but attitude and learning appetite made the difference.
+
+Skills are great and cool, but zeal is the fuel.
+
+## Closing reflection
+
+Build the team with capability, but do not ignore the energy. Look for people who bring curiosity, positivity, determination, and the willingness to grow.
+
+A strong team needs both skills and zeal.

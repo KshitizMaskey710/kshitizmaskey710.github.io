@@ -1,8 +1,19 @@
 <section class="hero">
-  <div class="shell hero__content">
-    {% if include.back_url %}<a class="back-link" href="{{ include.back_url | relative_url }}">← {{ include.back_label | default: 'Back' }}</a>{% endif %}
-    <p class="eyebrow">{{ include.eyebrow | default: page.eyebrow }}</p>
-    <h1>{{ include.title | default: page.title }}</h1>
-    {% if include.lede or page.description %}<p class="lede">{{ include.lede | default: page.description }}</p>{% endif %}
+  <div class="container{% if include.grid %} hero-grid{% endif %}">
+    <div>
+      {% if include.back_url %}<a class="back-link" href="{{ include.back_url | relative_url }}">← {{ include.back_label | default: 'Back' }}</a>{% endif %}
+      {% if include.eyebrow or page.category_label or page.eyebrow %}<p class="label">{{ include.eyebrow | default: page.category_label | default: page.eyebrow }}</p>{% endif %}
+      <h1>{{ include.title | default: page.title }}</h1>
+      {% if include.meta %}<div class="meta-row">{% for item in include.meta %}<div><strong>{{ item.label }}</strong>{{ item.value }}</div>{% endfor %}</div>{% endif %}
+      {% if include.lead_paragraphs %}
+        <div class="lead">{% for paragraph in include.lead_paragraphs %}<p>{{ paragraph }}</p>{% endfor %}</div>
+      {% elsif include.lead %}
+        <p class="lead">{{ include.lead }}</p>
+      {% elsif page.description %}
+        <p class="lead">{{ page.description }}</p>
+      {% endif %}
+      {% if include.buttons %}<div class="btn-row">{% for button in include.buttons %}<a class="btn{% if button.primary %} primary{% endif %}" href="{{ button.url | relative_url }}"{% if button.external %} target="_blank" rel="noreferrer"{% endif %}>{{ button.label }}</a>{% endfor %}</div>{% endif %}
+    </div>
+    {% if include.sidebar %}{{ include.sidebar }}{% endif %}
   </div>
 </section>

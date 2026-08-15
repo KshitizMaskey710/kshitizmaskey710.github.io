@@ -1,8 +1,18 @@
 ---
 layout: default
 ---
-{% include hero.html %}
-<article class="shell prose page-content">{{ content }}</article>
-{% for section in page.contact_sections %}
-  <section class="section{% cycle ' section--muted', '' %}"><div class="shell"><p class="eyebrow">{{ section.label }}</p><h2>{{ section.title }}</h2>{% include card-grid.html cards=section.cards compact=true %}</div></section>
-{% endfor %}
+{% capture hero_sidebar %}
+<aside class="card">
+  <h3>Best fit conversations</h3>
+  <div class="divider"></div>
+  <ul class="list">
+    <li>Delivery &amp; Implementation roles</li>
+    <li>Customer Success &amp; Delivery systems</li>
+    <li>Program execution and governance</li>
+    <li>Agile and Scrum enablement</li>
+  </ul>
+</aside>
+{% endcapture %}
+{% include hero.html grid=true sidebar=hero_sidebar buttons=page.buttons %}
+<div class="contact-content">{{ content }}</div>
+{% if page.cta %}{% include cta.html label=page.cta.label title=page.cta.title lead=page.cta.lead buttons=page.cta.buttons %}{% endif %}

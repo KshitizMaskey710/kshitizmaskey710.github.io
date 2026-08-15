@@ -1,7 +1,0 @@
-<aside class="related">
-  <p class="eyebrow">Continue exploring</p>
-  <h2>{{ include.title | default: 'Related paths' }}</h2>
-  <div class="button-row">
-    {% for item in page.related %}<a class="button{% if forloop.index > 1 %} button--quiet{% endif %}" href="{{ item.url | relative_url }}">{{ item.title }}</a>{% endfor %}
-  </div>
-</aside>

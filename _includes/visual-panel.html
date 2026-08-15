@@ -1,10 +1,19 @@
 <figure class="visual-panel">
-  <div>
-    <p class="eyebrow">{{ include.label }}</p>
-    <h2>{{ include.title }}</h2>
+  <div class="split">
+    <div>
+      {% if include.label %}<p class="label">{{ include.label }}</p>{% endif %}
+      {% if include.title %}<h2>{{ include.title }}</h2>{% endif %}
+      <div class="divider"></div>
+    </div>
+    {% if include.cards %}
+      <div class="grid-2">{% for card in include.cards %}<div class="card white">{{ card }}</div>{% endfor %}</div>
+    {% else %}
+      <div class="simple-list">
+        {% for item in include.items %}
+          <div>{% if item.title %}<strong>{{ item.title }}</strong>{% if item.text %}<p class="body">{{ item.text }}</p>{% endif %}{% else %}{{ item }}{% endif %}</div>
+        {% endfor %}
+      </div>
+    {% endif %}
   </div>
-  <ul>
-    {% for item in include.items %}<li>{{ item }}</li>{% endfor %}
-  </ul>
-  {% if include.caption %}<figcaption>{{ include.caption }}</figcaption>{% endif %}
+  {% if include.caption %}<figcaption class="caption">{{ include.caption }}</figcaption>{% endif %}
 </figure>
