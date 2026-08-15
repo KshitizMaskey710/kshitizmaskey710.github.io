@@ -9,11 +9,11 @@ timezone: Asia/Kathmandu
 permalink: /:slug/
 author: Kshitiz Maskey
 logo: /assets/images/logo.png
-linkedin_url: https://www.linkedin.com/in/kshitizmaskey
+linkedin_url: https://www.linkedin.com/in/kshitiz-maskey
 social:
   name: Kshitiz Maskey
   links:
-    - https://www.linkedin.com/in/kshitizmaskey
+    - https://www.linkedin.com/in/kshitiz-maskey
 
 plugins:
   - jekyll-seo-tag
