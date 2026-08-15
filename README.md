@@ -1,6 +1,6 @@
 # Kshitiz Maskey Jekyll theme
 
-A standalone, lightweight Jekyll conversion of the React/Tailwind references in `../examples/`. It ships plain HTML, Liquid, and CSS; React and Tailwind are not runtime dependencies.
+A standalone, lightweight Jekyll site matching the plain HTML reference in `KshitizWebsite_Final_Plain_HTML/`. It ships plain HTML, Liquid, and CSS; React and Tailwind are not runtime dependencies.
 
 ## Run locally
 
@@ -11,8 +11,15 @@ bundle exec jekyll serve --livereload
 
 Open `http://127.0.0.1:4000/`.
 
+## Structure
+
+- `_layouts/` own page chrome: `home`, `profile`, `expertise`, `contact`, `page`, `post`, `case-study`, `default`.
+- `_includes/` contains reusable hero, visual-panel, image-block, and call-to-action (footer-cta) components.
+- Page and post copy lives in the root `*.md` files and `_posts/`; hero copy, meta rows, visual panels, and CTAs are driven by front matter.
+- `assets/css/main.css` implements the reference design system (`.container`, `.hero-grid`, `.split`, `.grid-2`, `.grid-3`, `.card`, `.blog-card`, `.note-card`, `.footer-cta`, etc.).
+
 ## Reusing a design
 
-Copy a file from `_templates/` into the site root or `_posts/`, rename it, and replace its front matter and sample content. Layouts own page chrome; `_includes/` contains reusable hero, metadata, card-grid, callout, visual-panel, and related-link components.
+Copy a file from `_templates/` into the site root or `_posts/`, rename it, and replace its front matter and sample content. Article images live in `assets/images/` and are wired in with the `image-block` include or an `image` front matter value.
 
-Article images referenced by the React examples were not copied because their source files are absent. Add approved images to `assets/images/` and set an `image` front matter value when available.
+The plain HTML reference folder is excluded from the build and is kept only as source documentation.

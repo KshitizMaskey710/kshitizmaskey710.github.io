@@ -17,14 +17,10 @@ defaults:
     values:
       layout: post
       category_label: Blog
-      related:
-        - title: Explore my expertise
-          url: /expertise/
-        - title: Browse all articles
-          url: /blogs/
 
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
   - _templates
+  - KshitizWebsite_Final_Plain_HTML
