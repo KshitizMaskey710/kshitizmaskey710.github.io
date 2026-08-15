@@ -9,7 +9,7 @@ permalink: /contact/
 nav: Contact
 buttons:
   - label: Connect on LinkedIn
-    url: https://www.linkedin.com/in/kshitizmaskey
+    url: https://www.linkedin.com/in/kshitiz-maskey
     primary: true
     external: true
   - label: View Expertise
@@ -20,7 +20,7 @@ cta:
   lead: I respond best to clear, human messages with a bit of context around the role, opportunity, collaboration, or discussion area.
   buttons:
     - label: Connect on LinkedIn
-      url: https://www.linkedin.com/in/kshitizmaskey
+      url: https://www.linkedin.com/in/kshitiz-maskey
       primary: true
       external: true
     - label: Read Blogs
@@ -34,12 +34,12 @@ cta:
       <h2 style="margin-top:16px">Start the conversation through LinkedIn.</h2>
       <p class="body" style="margin-top:22px">The easiest way to start a professional conversation is through LinkedIn. For direct professional inquiries, I can share contact details privately after the initial connection.</p>
       <div class="simple-list" style="margin-top:28px">
-        <a href="https://www.linkedin.com/in/kshitizmaskey" target="_blank" rel="noreferrer">
+        <a href="https://www.linkedin.com/in/kshitiz-maskey" target="_blank" rel="noreferrer">
           <strong>LinkedIn</strong>
           <p class="body">Best for recruiter outreach, professional networking, role conversations, speaking or training discussions, and initial contact.</p>
-          <p style="color:var(--accent);margin-top:10px">linkedin.com/in/kshitizmaskey</p>
+          <p style="color:var(--accent);margin-top:10px">linkedin.com/in/kshitiz-maskey</p>
         </a>
-        <a href="https://www.linkedin.com/in/kshitizmaskey" target="_blank" rel="noreferrer">
+        <a href="https://www.linkedin.com/in/kshitiz-maskey" target="_blank" rel="noreferrer">
           <strong>Direct professional inquiry</strong>
           <p class="body">For consulting, collaboration, or detailed professional discussions, I can share direct contact details privately after the initial connection.</p>
           <p style="color:var(--accent);margin-top:10px">Available after initial contact</p>
