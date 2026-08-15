@@ -1,0 +1,6 @@
+---
+layout: default
+---
+{% capture hero_sidebar %}<aside class="profile-card"><img src="{{ '/assets/images/kshitiz-portrait.png' | relative_url }}" alt="Kshitiz Maskey portrait"></aside>{% endcapture %}
+{% include hero.html grid=true sidebar=hero_sidebar buttons=page.buttons %}
+{{ content }}
