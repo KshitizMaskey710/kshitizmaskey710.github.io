@@ -1,8 +1,8 @@
 title: Kshitiz Maskey
 description: Customer Success, delivery leadership, Agile enablement, and governance.
-# Single source of truth for the live URL. GitHub Pages auto-fills this for the
-# <user>.github.io domain; when a custom domain goes live, change only this line.
-url: ""
+# Single source of truth for the live URL. Canonical, og:url, sitemap <loc>,
+# JSON-LD, and robots.txt all derive from this. No trailing slash.
+url: https://kshitizmaskey.com.np
 baseurl: ""
 lang: en
 timezone: Asia/Kathmandu
