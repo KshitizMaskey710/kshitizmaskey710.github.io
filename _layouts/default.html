@@ -3,9 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="{{ '/assets/images/favicon.png' | relative_url }}">
+    <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    {%- if page.seo_title -%}
+    <title>{{ page.seo_title }}</title>
+    {% seo title=false %}
+    {%- else -%}
     {% seo %}
+    {%- endif -%}
   </head>
   <body class="layout-{{ page.layout | default: 'default' }}">
     <a class="skip-link" href="#main">Skip to content</a>

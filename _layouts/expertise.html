@@ -1,14 +1,19 @@
 ---
 layout: default
 ---
-{% include hero.html %}
-<article class="shell prose page-content">{{ content }}</article>
+{% include hero.html lead_paragraphs=page.lead_paragraphs %}
+<div class="expertise-content">{{ content }}</div>
 {% for section in page.sections %}
-  <section class="section{% cycle '', ' section--muted' %}" id="{{ section.id }}">
-    <div class="shell section-grid">
-      <header><p class="eyebrow">{{ section.label }}</p><h2>{{ section.title }}</h2><p>{{ section.intro }}</p></header>
-      {% include card-grid.html cards=section.cards compact=true %}
+  <section id="{{ section.id }}" class="section{% cycle '', ' grey' %}">
+    <div class="container">
+      <p class="label">{{ section.label }}</p>
+      <h2>{{ section.title }}</h2>
+      {% if section.intro %}<div class="body" style="margin-top:28px;max-width:850px">{% for paragraph in section.intro %}<p>{{ paragraph }}</p>{% endfor %}</div>{% endif %}
+      <div class="grid-2" style="margin-top:40px">
+        {% for card in section.cards %}<article class="card"><h3>{{ card.title }}</h3><div class="divider"></div><p class="body">{{ card.text }}</p></article>{% endfor %}
+        {% if section.note %}<div class="note-card">{{ section.note }}</div>{% endif %}
+      </div>
     </div>
   </section>
 {% endfor %}
-{% if page.related %}<div class="shell">{% include related-links.html %}</div>{% endif %}
+{% if page.cta %}{% include cta.html label=page.cta.label title=page.cta.title lead=page.cta.lead buttons=page.cta.buttons %}{% endif %}

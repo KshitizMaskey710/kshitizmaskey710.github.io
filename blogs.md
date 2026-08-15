@@ -1,16 +1,25 @@
 ---
 layout: page
-title: Blogs & Case Studies
-eyebrow: Writing
-description: Reflections on Agile, team leadership, personal clarity, delivery systems, and practical enablement.
+title: Reflections, delivery lessons, and practical enablement case studies.
+seo_title: Blogs & Articles | Kshitiz Maskey
+eyebrow: Blogs & Case Studies
+description: A collection of writing on customer-facing delivery, program execution, governance, Agile thinking, team leadership, and practical training experiences.
+image: /assets/images/kshitiz-portrait.png
 permalink: /blogs/
 nav: Blogs
-wide: true
 ---
 
-<div class="card-grid blog-grid">
-{% assign sorted_posts = site.posts | sort: 'date' | reverse %}
-{% for post in sorted_posts %}
-<article class="card"><p class="eyebrow">{{ post.category_label }}</p><h2>{{ post.title }}</h2><span class="rule"></span><p>{{ post.description }}</p><a class="text-link" href="{{ post.url | relative_url }}">Read {{ post.category_label | downcase }} →</a></article>
-{% endfor %}
-</div>
+<section class="section no-border">
+  <div class="container">
+    <div class="grid-2">
+      {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
+      {% for post in sorted_posts %}
+      <a class="blog-card" href="{{ post.url | relative_url }}">
+        <p class="label">{{ post.category_label }}</p>
+        <h2>{{ post.card_title | default: post.title }}</h2>
+        <p class="body">{{ post.card_text | default: post.description }}</p>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
