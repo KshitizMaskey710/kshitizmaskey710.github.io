@@ -1,14 +1,23 @@
 title: Kshitiz Maskey
 description: Customer Success, delivery leadership, Agile enablement, and governance.
+# Single source of truth for the live URL. GitHub Pages auto-fills this for the
+# <user>.github.io domain; when a custom domain goes live, change only this line.
 url: ""
 baseurl: ""
 lang: en
 timezone: Asia/Kathmandu
 permalink: /:slug/
+author: Kshitiz Maskey
+logo: /assets/images/logo.png
 linkedin_url: https://www.linkedin.com/in/kshitizmaskey
+social:
+  name: Kshitiz Maskey
+  links:
+    - https://www.linkedin.com/in/kshitizmaskey
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 defaults:
   - scope:
@@ -17,6 +26,7 @@ defaults:
     values:
       layout: post
       category_label: Blog
+      image: /assets/images/kshitiz-portrait.png
 
 exclude:
   - Gemfile
