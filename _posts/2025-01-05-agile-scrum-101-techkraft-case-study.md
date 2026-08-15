@@ -3,50 +3,77 @@ layout: case-study
 title: "Agile and Scrum 101 at TechKraft: Introducing Structure Across Internal Teams"
 slug: agile-scrum-101-techkraft-case-study
 category_label: Case Study / Agile Enablement
-description: A practical internal training case study on introducing Agile and Scrum fundamentals across departments without a shared execution rhythm.
+card_title: Agile and Scrum 101 at TechKraft
+card_text: A practical internal training case study on introducing Agile and Scrum across engineering, HR, sales, and other internal teams.
+description: A practical internal training case study on introducing Agile and Scrum across engineering, HR, sales, and other internal teams.
 meta:
-  - label: Training Type
-    value: Internal Agile & Scrum Enablement
-  - label: Audience
-    value: Engineering, HR, Sales, and internal teams
-  - label: Focus
-    value: Agile mindset, Scrum fundamentals, role clarity, and delivery rhythm
+  - label: Context
+    value: Internal cross-functional training
+  - label: Training
+    value: Agile and Scrum fundamentals
+  - label: Outcome
+    value: Scrum adoption and adapted practices
 visual:
-  label: Training Journey
-  title: From shared language to practical team rhythm.
-  items: [Agile fundamentals, Manifesto and principles, Scrum accountabilities, Events and artifacts, Velocity, Retrospective]
-  caption: The source references session photographs that are not present in the repository; this reusable native panel avoids a broken image.
-related:
-  - title: Agile & Scrum expertise
-    url: /expertise/#agile-scrum-enablement
-  - title: Browse all articles
-    url: /blogs/
+  label: Training Case Study
+  title: Agile and Scrum 101 at TechKraft
+  items:
+    - title: Audience
+      text: Engineering, HR, sales, and internal departments.
+    - title: Training design
+      text: Agile fundamentals, Scrum foundations, practical games, and reflection.
+    - title: Outcome
+      text: Formal Scrum initiation in engineering and adapted ways of working across other departments.
+  caption: A practical Agile and Scrum training experience designed to create shared language, shared rhythm, and cross-departmental understanding.
+cta:
+  label: Related Expertise
+  title: Agile Mindset & Scrum Enablement
+  lead: This case study connects to my work in Agile fundamentals, Scrum enablement, training facilitation, role clarity, practical adoption, and helping teams use Agile as a delivery system rather than a checklist of ceremonies.
+  buttons:
+    - label: View Agile Expertise
+      url: /expertise/#agile-scrum-enablement
+      primary: true
+    - label: Back to Blogs
+      url: /blogs/
 ---
 
-## Introduction
+{% include image-block.html src='/assets/images/agile-scrum-101-techkraft-session-overview.jpg' alt='Agile and Scrum 101 training session overview.' caption='Agile and Scrum 101 training session overview.' %}
 
-Agile is often introduced as an engineering practice, but its value extends beyond software teams. It helps people work with clarity, adaptability, ownership, and feedback. Scrum can provide a practical structure for visibility and continuous improvement when applied thoughtfully.
+## The problem
 
-At TechKraft, I conducted an internal Agile and Scrum 101 training to establish a shared understanding across departments. The goal was not to turn every department into a software team. It was to show how Agile thinking and Scrum-inspired practices could improve everyday planning, communication, accountability, and coordination.
+Different departments were functioning in their own ways. Work was being done, but there was no shared structure, framework, or common operating rhythm across internal teams.
 
-## Background
-
-Teams were working with different assumptions about priorities, ownership, planning, and progress. Without a shared framework, collaboration depended heavily on individuals and communication could become reactive.
+The need was not limited to engineering. Similar gaps appeared across HR, sales, and other internal functions where clearer collaboration, ownership, and follow-through could improve team performance.
 
 ## Training design
 
-The session connected theory with the participants’ real work. It covered Agile fundamentals, the Manifesto and principles, common frameworks, Scrum accountabilities, events, artifacts, and the idea of a sustainable delivery rhythm.
+The training was designed as a two-day Agile and Scrum 101 session focused on practical understanding rather than theory alone.
 
-### Making learning visible
+The agenda covered Agile foundations, the Agile Manifesto, Agile principles and methodologies, Scrum basics, Scrum roles, events, artifacts, estimation, velocity, user stories, acceptance criteria, Definition of Ready, Definition of Done, and retrospectives.
 
-Discussion, practical examples, group activities, and a 4Ls retrospective helped participants translate new terms into their own environments. The retrospective invited them to identify what they liked, learned, lacked, and longed for.
+{% include image-block.html src='/assets/images/agile-scrum-101-techkraft-facilitation-discussion.jpg' alt='Facilitation and discussion during the training.' caption='Facilitation and discussion during the training.' %}
 
-## Outcome
+## Practical learning through activities
 
-Participants left with a common vocabulary and a clearer way to discuss priorities, ownership, feedback, and improvement. The most important result was not memorizing Scrum terminology; it was seeing structure as a tool for better collaboration.
+The training used practical games and exercises to help participants understand concepts through experience.
 
-> Enablement succeeds when people can connect a framework to the work waiting for them after the session.
+Activities helped participants see why roles matter, how requirements need clarity, and how different people contribute to a shared outcome.
 
-## Key lesson
+The Block Tower Collaboration activity was then connected back to each department’s own working reality. For engineering, it reinforced the importance of clear Scrum accountabilities. For HR, sales, and other internal teams, it opened a conversation around how different roles contribute to the functioning of a department, and why clearer ownership improves coordination, follow-through, and outcomes.
 
-Cross-department Agile learning should respect each team’s context. The useful question is not “How do we make every team use Scrum?” It is “Which principles and practices will make this team’s work clearer and more adaptive?”
+{% include image-block.html src='/assets/images/agile-scrum-101-techkraft-block-tower-activity.jpg' alt='Block Tower Collaboration activity.' caption='Block Tower Collaboration activity.' %}
+
+## Assessment and outcome
+
+An assessment was conducted after the training, and all participants scored above 90%.
+
+The training supported the formal initiation of Scrum in engineering and encouraged HR, sales, and other teams to adapt Agile and Scrum-inspired practices in ways that made sense for their work.
+
+{% include image-block.html src='/assets/images/agile-scrum-101-techkraft-certificate-handover.jpg' alt='Certificate handover after the training.' caption='Certificate handover after the training.' %}
+
+## What this case study demonstrates
+
+This training demonstrated that Agile and Scrum concepts become more useful when they are made practical, relatable, and connected to each team’s working reality.
+
+It also showed that Agile enablement can support more than engineering teams when the mindset is adapted thoughtfully.
+
+{% include image-block.html src='/assets/images/agile-scrum-101-techkraft-4ls-retrospective.jpg' alt='Retrospective and reflection activity.' caption='Retrospective and reflection activity.' %}
