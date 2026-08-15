@@ -6,6 +6,7 @@ category_label: Case Study / Agile Enablement
 card_title: Agile and Scrum 101 at TechKraft
 card_text: A practical internal training case study on introducing Agile and Scrum across engineering, HR, sales, and other internal teams.
 description: A practical internal training case study on introducing Agile and Scrum across engineering, HR, sales, and other internal teams.
+image: /assets/images/agile-scrum-101-techkraft-session-overview.jpg
 meta:
   - label: Context
     value: Internal cross-functional training

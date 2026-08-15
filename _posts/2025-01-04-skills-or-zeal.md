@@ -5,6 +5,7 @@ category_label: Blog / Team Leadership
 card_title: Skills or Zeal
 card_text: A playful but practical reflection on team selection and why learning energy, attitude, and zeal often matter as much as skill.
 description: A playful but practical reflection on team selection, why skills matter, and why attitude, learning energy, and zeal can be the real fuel behind a strong team.
+image: /assets/images/skills-or-zeal-dream-team.jpg
 meta:
   - label: Theme
     value: Team Building
