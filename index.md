@@ -68,11 +68,13 @@ buttons:
         <h3>Regional Scrum Gathering Bangladesh 2023</h3>
         <div class="divider"></div>
         <p class="body">Spoke on Agile principles and customer satisfaction.</p>
+        <a class="watch-video" href="#" data-video-url="https://www.youtube.com/watch?v=ahjIWAd28X4">Watch video</a>
       </article>
       <article class="card">
         <h3>Agile Nepal 2023</h3>
         <div class="divider"></div>
         <p class="body">Presented on Shape up your agility and practical Agile mindset adoption.</p>
+        <a class="watch-video" href="#" data-video-url="https://www.youtube.com/watch?v=QSsrV1aPdaQ">Watch video</a>
       </article>
     </div>
   </div>
